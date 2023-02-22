@@ -7,7 +7,8 @@ import ReactRotatingText from "react-rotating-text";
 import { Grid, Card, CardContent, requirePropFactory } from "@material-ui/core";
 import Typography from "@mui/material/Typography";
 import { useNavigate } from "react-router-dom";
-import landing from './landing.jpg'
+import landing from '../static/landing.jpg'
+
 
 // import { UserContext } from "../context";
 
