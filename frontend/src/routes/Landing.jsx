@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 import { makeStyles } from "@material-ui/core/styles";
 // import axios from "axios";
 import ReactRotatingText from "react-rotating-text";
-import { Grid, Card, CardContent } from "@material-ui/core";
+import { Grid, Card, CardContent, requirePropFactory } from "@material-ui/core";
 import Typography from "@mui/material/Typography";
 import { useNavigate } from "react-router-dom";
 
@@ -168,7 +168,7 @@ export default function Landing() {
             className={classes.image}
             height="100%"
             alt="A tiger in space"
-            src="/frontend/src/routes/landing.jpg"
+            src={require('./landing.jpg')}
           />
         </Grid>
       </Grid>
