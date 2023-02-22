@@ -7,7 +7,7 @@ import ReactRotatingText from "react-rotating-text";
 import { Grid, Card, CardContent, requirePropFactory } from "@material-ui/core";
 import Typography from "@mui/material/Typography";
 import { useNavigate } from "react-router-dom";
-import landing from '../static/landing.jpg'
+
 
 
 // import { UserContext } from "../context";
@@ -170,7 +170,7 @@ export default function Landing() {
             className={classes.image}
             height="100%"
             alt="A tiger in space"
-            src={landing}
+            src= {process.env.PUBLIC_URL + '/landing.jpg'}
           />
         </Grid>
       </Grid>
