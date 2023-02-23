@@ -90,7 +90,7 @@ export default function Landing() {
       descrip:
         "I'm a Junior in AB Computer Science. In my free time, I love listening to music and roller skating.",
       image:
-        "https://res.cloudinary.com/chickennuggets/image/upload/v1668620418/SpaceTiger/IMG_7678_scu9k4.jpg",
+        "http://res.cloudinary.com/chickennuggets/raw/upload/v1677133026/SpaceTiger/photos/p6irdc9doq0lgml9od9z.jpg",
     },
     {
       name: "Tri Giao Vu Dinh",
