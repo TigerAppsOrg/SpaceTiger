@@ -39,7 +39,6 @@ class SpacesApi(Resource):
         if not status:
             # return error message to frontend with existing space id
             return jsonify({"status": 409, "space_id": space_id})
-            
 
         if args["images"]:
             for image in args["images"]:

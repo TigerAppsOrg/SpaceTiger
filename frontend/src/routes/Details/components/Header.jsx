@@ -167,6 +167,7 @@ export default function Header({
           )}
         </div>
       </div>
+      <Typography variant="p">Posted by: {puid}</Typography>
       <div className={classes.headerSecond}>
         {rating && rating !== 0 ? (
           <>
