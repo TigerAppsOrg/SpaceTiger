@@ -285,9 +285,9 @@ export default function AddSpaceModal(props) {
         >
           <Grid item>
             <Typography variant="caption" color="error">
-              Disclaimer: your netid will be attached to your submission.
+              Disclaimer: your netID will be displayed along with your submission.
             </Typography>
-            <Grid item container justifyContent="flex-end">
+            <Grid item container justifyContent="flex-end" marginTop={1}>
               <Button variant="outlined" onClick={onClose}>
                 Cancel
               </Button>
